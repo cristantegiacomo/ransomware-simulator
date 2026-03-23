@@ -51,7 +51,12 @@
 /* ------------------------------------------------------------------ */
 
 /* Absolute path the program is allowed to operate in.
- * Any path outside this prefix is immediately rejected. */
+ * Any path outside this prefix is immediately rejected.
+ *
+ * !! IMPORTANT — before compiling, update this path to match your system !!
+ * Run this command to get the correct value:
+ *   realpath victim_test
+ * Then replace the string below with the output. */
 #define SAFE_ROOT "/Users/giacomocristante/Desktop/ProgRansomware/victim_test"
 
 /* Name of the ransom note dropped in the target directory root.
